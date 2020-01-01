@@ -15,7 +15,7 @@ This repository describes the steps to deploy kubernetes deployment files using 
 ` helm init`
 
 ## Create Helm Chart
-` helm create kube-deployment`
+` helm create kube-deployment`<br />
 A folder with kube-deployment will be created with files mentioned in kube-deployment folder present on this repository
 Modify the charts as per your requirements.
 
