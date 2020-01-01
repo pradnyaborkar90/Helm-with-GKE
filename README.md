@@ -31,7 +31,7 @@ Modify the charts as per your requirements.
 ## Adding the ServiceAccount created to the helm client
 ` kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}' `
 ## Install Helm chart
-` helm install --name helm-deployment ./kube-deployment`
+` helm install --name helm-deployment ./kube-deployment`<br />
 " --name" is used for naming the helm release
 
 
